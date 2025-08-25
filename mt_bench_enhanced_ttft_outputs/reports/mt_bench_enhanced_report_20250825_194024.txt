@@ -1,0 +1,68 @@
+================================================================================
+MT-BENCH ENHANCED TTFT OPTIMIZATION EVALUATION REPORT
+================================================================================
+Timestamp: 2025-08-25 19:40:24
+Integration: fixed_enhanced_moa_systemv1.py
+Test Provider: ollama
+Judge: ollama/qwen2.5:14b
+
+SUMMARY RESULTS
+------------------------------------------------------------------------------------------
+Optimization              Overall    Turn1      Turn2      TTFT-T1    TTFT-T2    Layers  
+------------------------------------------------------------------------------------------
+enhanced_caching_20250825 7.34       7.38       7.30       85.769     110.841    3       
+smart_query_routing_20250825 7.30       7.31       7.29       55.333     73.412     3       
+streaming_incremental_aggregation_20250825 7.29       7.26       7.32       80.564     90.762     3       
+baseline_20250825         7.27       7.30       7.24       111.408    124.133    3       
+streaming_semantic_dedup_20250825 7.27       7.30       7.23       82.741     91.069     3       
+
+ENHANCED OPTIMIZATION ANALYSIS
+------------------------------------------------------------------------------------------
+Optimization              Data Int.    Cache Hit    Efficiency   Clusters  
+------------------------------------------------------------------------------------------
+enhanced_caching_20250825 1.00         Yes          0.00         0         
+smart_query_routing_20250825 0.48         No           0.00         0         
+streaming_incremental_aggregation_20250825 0.69         No           0.00         0         
+baseline_20250825         1.00         No           0.00         0         
+streaming_semantic_dedup_20250825 0.69         No           0.00         8         
+
+TOP PERFORMERS
+--------------------------------------------------
+🥇 Highest Score: enhanced_caching_20250825 (7.34/10)
+⚡ Fastest Turn1: smart_query_routing_20250825 (55.333s)
+⚡ Fastest Turn2: smart_query_routing_20250825 (73.412s)
+🔧 Best Integrity: enhanced_caching_20250825 (1.00)
+
+CATEGORY PERFORMANCE
+------------------------------------------------------------
+Category        Avg Score    Best Optimization        
+------------------------------------------------------------
+Writing         7.09         enhanced_caching_20250825
+Roleplay        7.30         smart_query_routing_20250825
+Reasoning       7.43         streaming_incremental_aggregation_20250825
+Math            7.40         enhanced_caching_20250825
+Coding          7.44         enhanced_caching_20250825
+Extraction      7.02         smart_query_routing_20250825
+STEM            7.42         enhanced_caching_20250825
+Humanities      7.25         streaming_semantic_dedup_20250825
+
+STATISTICAL ANALYSIS
+--------------------------------------------------
+Score Statistics:
+  Mean: 7.29
+  Std:  0.03
+  Min:  7.27
+  Max:  7.34
+TTFT Statistics:
+  Mean: 90.603s
+  Std:  17.456s
+  Min:  64.372s
+  Max:  117.771s
+
+INTEGRATION NOTES
+--------------------------------------------------
+✅ Successfully integrated with fixed_enhanced_moa_systemv1.py
+✅ All TTFT optimizations properly accessed via EnhancedMoAOptimizationSystem
+✅ Multi-layer architecture correctly implemented (3-layer default)
+✅ Enhanced metrics captured: data integrity, caching, semantic clustering
+✅ Research-grade evaluation methodology maintained
