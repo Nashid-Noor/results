@@ -1,0 +1,282 @@
+python3 research_grade_alpacaeval_complete.py --test ollama --reference default --ju
+dge ollama --max-examples 20
+2025-08-14 02:20:21,112 - datasets - INFO - PyTorch version 2.7.0 available.
+2025-08-14 02:20:23,537 - alpacaeval_complete - INFO - ✅ Loaded 805 official GPT-4 Turbo references
+2025-08-14 02:20:23,537 - alpacaeval_complete - INFO - 🎯 Research-Grade AlpacaEval System Initialized
+2025-08-14 02:20:23,537 - alpacaeval_complete - INFO -    🧪 Test Provider: ollama
+2025-08-14 02:20:23,537 - alpacaeval_complete - INFO -    📖 Reference: default
+2025-08-14 02:20:23,537 - alpacaeval_complete - INFO -    ⚖️  Judge: ollama
+2025-08-14 02:20:24,956 - alpacaeval_complete - INFO - 📚 Loaded 805 instructions from AlpacaEval
+2025-08-14 02:20:24,956 - alpacaeval_complete - INFO - 🎯 Using 20 examples for evaluation
+2025-08-14 02:20:24,956 - alpacaeval_complete - INFO - 
+============================================================
+2025-08-14 02:20:24,956 - alpacaeval_complete - INFO - 🚀 GENERATING OUTPUTS WITH TTFT OPTIMIZATIONS
+2025-08-14 02:20:24,956 - alpacaeval_complete - INFO -    Instructions: 20
+2025-08-14 02:20:24,956 - alpacaeval_complete - INFO -    Optimizations: 7
+2025-08-14 02:20:24,956 - alpacaeval_complete - INFO - ============================================================
+
+2025-08-14 02:20:24,956 - alpacaeval_complete - INFO - 
+📝 Generating with baseline...
+2025-08-14 02:20:24,956 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 02:21:32,795 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 02:22:41,748 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 02:23:53,042 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 02:24:55,596 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 02:26:03,175 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 02:27:04,215 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 02:27:41,831 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 02:28:22,678 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 02:29:31,181 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 02:30:40,186 - alpacaeval_complete - INFO -    Progress: 10/20
+2025-08-14 02:30:40,186 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 02:31:29,517 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 02:32:29,889 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 02:33:35,775 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 02:34:40,395 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 02:35:33,550 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 02:36:40,247 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 02:37:46,672 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 02:38:55,991 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 02:39:41,313 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 02:40:51,128 - alpacaeval_complete - INFO -    Progress: 20/20
+2025-08-14 02:40:51,158 - alpacaeval_complete - INFO -    💾 Saved to: alpacaeval_research_results/model_outputs/ollama_baseline_20250814_024051.json
+2025-08-14 02:40:51,158 - alpacaeval_complete - INFO - 
+📝 Generating with query_routing...
+2025-08-14 02:40:51,158 - moa_ttft - INFO - 🚀 Running Traditional MoA with query_routing
+2025-08-14 02:41:58,718 - moa_ttft - INFO - 🚀 Running Traditional MoA with query_routing
+2025-08-14 02:42:38,848 - moa_ttft - INFO - 🚀 Running Traditional MoA with query_routing
+2025-08-14 02:43:40,305 - moa_ttft - INFO - 🚀 Running Traditional MoA with query_routing
+2025-08-14 02:44:21,025 - moa_ttft - INFO - 🚀 Running Traditional MoA with query_routing
+2025-08-14 02:45:01,590 - moa_ttft - INFO - 🚀 Running Traditional MoA with query_routing
+2025-08-14 02:45:36,205 - moa_ttft - INFO - 🚀 Running Traditional MoA with query_routing
+2025-08-14 02:46:15,048 - moa_ttft - INFO - 🚀 Running Traditional MoA with query_routing
+2025-08-14 02:46:36,201 - moa_ttft - INFO - 🚀 Running Traditional MoA with query_routing
+2025-08-14 02:47:10,443 - moa_ttft - INFO - 🚀 Running Traditional MoA with query_routing
+2025-08-14 02:48:23,140 - alpacaeval_complete - INFO -    Progress: 10/20
+2025-08-14 02:48:23,140 - moa_ttft - INFO - 🚀 Running Traditional MoA with query_routing
+2025-08-14 02:49:20,464 - moa_ttft - INFO - 🚀 Running Traditional MoA with query_routing
+2025-08-14 02:50:24,560 - moa_ttft - INFO - 🚀 Running Traditional MoA with query_routing
+2025-08-14 02:51:31,796 - moa_ttft - INFO - 🚀 Running Traditional MoA with query_routing
+2025-08-14 02:52:09,601 - moa_ttft - INFO - 🚀 Running Traditional MoA with query_routing
+2025-08-14 02:53:03,805 - moa_ttft - INFO - 🚀 Running Traditional MoA with query_routing
+2025-08-14 02:53:41,414 - moa_ttft - INFO - 🚀 Running Traditional MoA with query_routing
+2025-08-14 02:54:21,123 - moa_ttft - INFO - 🚀 Running Traditional MoA with query_routing
+2025-08-14 02:55:33,509 - moa_ttft - INFO - 🚀 Running Traditional MoA with query_routing
+2025-08-14 02:56:15,249 - moa_ttft - INFO - 🚀 Running Traditional MoA with query_routing
+2025-08-14 02:57:27,366 - alpacaeval_complete - INFO -    Progress: 20/20
+2025-08-14 02:57:27,366 - alpacaeval_complete - INFO -    💾 Saved to: alpacaeval_research_results/model_outputs/ollama_query_routing_20250814_025727.json
+2025-08-14 02:57:27,366 - alpacaeval_complete - INFO - 
+📝 Generating with incremental_aggregation...
+2025-08-14 02:57:27,366 - moa_ttft - INFO - 🚀 Running Traditional MoA with incremental_aggregation
+2025-08-14 02:58:33,152 - moa_ttft - INFO - 🚀 Running Traditional MoA with incremental_aggregation
+2025-08-14 02:59:44,297 - moa_ttft - INFO - 🚀 Running Traditional MoA with incremental_aggregation
+2025-08-14 03:00:53,995 - moa_ttft - INFO - 🚀 Running Traditional MoA with incremental_aggregation
+2025-08-14 03:01:58,489 - moa_ttft - INFO - 🚀 Running Traditional MoA with incremental_aggregation
+2025-08-14 03:03:05,207 - moa_ttft - INFO - 🚀 Running Traditional MoA with incremental_aggregation
+2025-08-14 03:04:07,013 - moa_ttft - INFO - 🚀 Running Traditional MoA with incremental_aggregation
+2025-08-14 03:04:42,728 - moa_ttft - INFO - 🚀 Running Traditional MoA with incremental_aggregation
+2025-08-14 03:05:19,782 - moa_ttft - INFO - 🚀 Running Traditional MoA with incremental_aggregation
+2025-08-14 03:06:19,846 - moa_ttft - INFO - 🚀 Running Traditional MoA with incremental_aggregation
+2025-08-14 03:07:33,107 - alpacaeval_complete - INFO -    Progress: 10/20
+2025-08-14 03:07:33,107 - moa_ttft - INFO - 🚀 Running Traditional MoA with incremental_aggregation
+2025-08-14 03:08:24,932 - moa_ttft - INFO - 🚀 Running Traditional MoA with incremental_aggregation
+2025-08-14 03:09:29,199 - moa_ttft - INFO - 🚀 Running Traditional MoA with incremental_aggregation
+2025-08-14 03:10:39,831 - moa_ttft - INFO - 🚀 Running Traditional MoA with incremental_aggregation
+2025-08-14 03:11:51,890 - moa_ttft - INFO - 🚀 Running Traditional MoA with incremental_aggregation
+2025-08-14 03:12:46,013 - moa_ttft - INFO - 🚀 Running Traditional MoA with incremental_aggregation
+2025-08-14 03:13:54,251 - moa_ttft - INFO - 🚀 Running Traditional MoA with incremental_aggregation
+2025-08-14 03:15:01,037 - moa_ttft - INFO - 🚀 Running Traditional MoA with incremental_aggregation
+2025-08-14 03:16:11,406 - moa_ttft - INFO - 🚀 Running Traditional MoA with incremental_aggregation
+2025-08-14 03:16:53,796 - moa_ttft - INFO - 🚀 Running Traditional MoA with incremental_aggregation
+2025-08-14 03:18:06,066 - alpacaeval_complete - INFO -    Progress: 20/20
+2025-08-14 03:18:06,067 - alpacaeval_complete - INFO -    💾 Saved to: alpacaeval_research_results/model_outputs/ollama_incremental_aggregation_20250814_031806.json
+2025-08-14 03:18:06,067 - alpacaeval_complete - INFO - 
+📝 Generating with caching...
+2025-08-14 03:18:06,067 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 03:19:16,510 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 03:20:25,324 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 03:21:35,119 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 03:22:34,702 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 03:23:39,590 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 03:24:40,183 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 03:25:16,484 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 03:25:57,815 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 03:26:57,275 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 03:28:10,394 - alpacaeval_complete - INFO -    Progress: 10/20
+2025-08-14 03:28:10,394 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 03:29:01,830 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 03:30:05,066 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 03:31:13,475 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 03:32:17,210 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 03:33:12,252 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 03:34:18,662 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 03:35:26,081 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 03:36:38,697 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 03:37:24,412 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 03:38:33,839 - alpacaeval_complete - INFO -    Progress: 20/20
+2025-08-14 03:38:33,839 - alpacaeval_complete - INFO -    🔄 Running second pass for cache demonstration...
+2025-08-14 03:38:33,839 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 03:39:29,166 - moa_ttft - INFO - 🚀 Running Traditional MoA with baseline
+2025-08-14 03:40:11,869 - alpacaeval_complete - INFO -    💾 Saved to: alpacaeval_research_results/model_outputs/ollama_caching_20250814_034011.json
+2025-08-14 03:40:11,869 - alpacaeval_complete - INFO - 
+📝 Generating with semantic_dedup...
+2025-08-14 03:40:11,869 - moa_ttft - INFO - 🚀 Running Traditional MoA with semantic_dedup
+2025-08-14 03:41:14,996 - moa_ttft - INFO - 🚀 Running Traditional MoA with semantic_dedup
+2025-08-14 03:42:25,634 - moa_ttft - INFO - 🚀 Running Traditional MoA with semantic_dedup
+2025-08-14 03:43:38,241 - moa_ttft - INFO - 🚀 Running Traditional MoA with semantic_dedup
+2025-08-14 03:44:45,501 - moa_ttft - INFO - 🚀 Running Traditional MoA with semantic_dedup
+2025-08-14 03:45:51,942 - moa_ttft - INFO - 🚀 Running Traditional MoA with semantic_dedup
+2025-08-14 03:46:48,265 - moa_ttft - INFO - 🚀 Running Traditional MoA with semantic_dedup
+2025-08-14 03:47:29,081 - moa_ttft - INFO - 🚀 Running Traditional MoA with semantic_dedup
+2025-08-14 03:48:12,854 - moa_ttft - INFO - 🚀 Running Traditional MoA with semantic_dedup
+2025-08-14 03:49:17,864 - moa_ttft - INFO - 🚀 Running Traditional MoA with semantic_dedup
+2025-08-14 03:50:30,983 - alpacaeval_complete - INFO -    Progress: 10/20
+2025-08-14 03:50:30,983 - moa_ttft - INFO - 🚀 Running Traditional MoA with semantic_dedup
+2025-08-14 03:51:22,392 - moa_ttft - INFO - 🚀 Running Traditional MoA with semantic_dedup
+2025-08-14 03:52:19,500 - moa_ttft - INFO - 🚀 Running Traditional MoA with semantic_dedup
+2025-08-14 03:53:25,308 - moa_ttft - INFO - 🚀 Running Traditional MoA with semantic_dedup
+2025-08-14 03:54:28,934 - moa_ttft - INFO - 🚀 Running Traditional MoA with semantic_dedup
+2025-08-14 03:55:19,063 - moa_ttft - INFO - 🚀 Running Traditional MoA with semantic_dedup
+2025-08-14 03:56:24,857 - moa_ttft - INFO - 🚀 Running Traditional MoA with semantic_dedup
+2025-08-14 03:57:33,545 - moa_ttft - INFO - 🚀 Running Traditional MoA with semantic_dedup
+2025-08-14 03:58:42,513 - moa_ttft - INFO - 🚀 Running Traditional MoA with semantic_dedup
+2025-08-14 03:59:28,439 - moa_ttft - INFO - 🚀 Running Traditional MoA with semantic_dedup
+2025-08-14 04:00:38,136 - alpacaeval_complete - INFO -    Progress: 20/20
+2025-08-14 04:00:38,136 - alpacaeval_complete - INFO -    💾 Saved to: alpacaeval_research_results/model_outputs/ollama_semantic_dedup_20250814_040038.json
+2025-08-14 04:00:38,136 - alpacaeval_complete - INFO - 
+📝 Generating with quality_weighting...
+2025-08-14 04:00:38,136 - moa_ttft - INFO - 🚀 Running Traditional MoA with quality_weighting
+2025-08-14 04:01:44,257 - moa_ttft - INFO - 🚀 Running Traditional MoA with quality_weighting
+2025-08-14 04:02:52,970 - moa_ttft - INFO - 🚀 Running Traditional MoA with quality_weighting
+2025-08-14 04:04:02,075 - moa_ttft - INFO - 🚀 Running Traditional MoA with quality_weighting
+2025-08-14 04:05:03,489 - moa_ttft - INFO - 🚀 Running Traditional MoA with quality_weighting
+2025-08-14 04:06:16,587 - moa_ttft - INFO - 🚀 Running Traditional MoA with quality_weighting
+2025-08-14 04:07:12,441 - moa_ttft - INFO - 🚀 Running Traditional MoA with quality_weighting
+2025-08-14 04:07:55,038 - moa_ttft - INFO - 🚀 Running Traditional MoA with quality_weighting
+2025-08-14 04:08:36,557 - moa_ttft - INFO - 🚀 Running Traditional MoA with quality_weighting
+2025-08-14 04:09:34,663 - moa_ttft - INFO - 🚀 Running Traditional MoA with quality_weighting
+2025-08-14 04:10:47,562 - alpacaeval_complete - INFO -    Progress: 10/20
+2025-08-14 04:10:47,562 - moa_ttft - INFO - 🚀 Running Traditional MoA with quality_weighting
+2025-08-14 04:11:39,191 - moa_ttft - INFO - 🚀 Running Traditional MoA with quality_weighting
+2025-08-14 04:12:36,625 - moa_ttft - INFO - 🚀 Running Traditional MoA with quality_weighting
+2025-08-14 04:13:43,124 - moa_ttft - INFO - 🚀 Running Traditional MoA with quality_weighting
+2025-08-14 04:14:46,574 - moa_ttft - INFO - 🚀 Running Traditional MoA with quality_weighting
+2025-08-14 04:15:32,800 - moa_ttft - INFO - 🚀 Running Traditional MoA with quality_weighting
+2025-08-14 04:16:31,606 - moa_ttft - INFO - 🚀 Running Traditional MoA with quality_weighting
+2025-08-14 04:17:39,043 - moa_ttft - INFO - 🚀 Running Traditional MoA with quality_weighting
+2025-08-14 04:18:48,992 - moa_ttft - INFO - 🚀 Running Traditional MoA with quality_weighting
+2025-08-14 04:19:28,751 - moa_ttft - INFO - 🚀 Running Traditional MoA with quality_weighting
+2025-08-14 04:20:38,047 - alpacaeval_complete - INFO -    Progress: 20/20
+2025-08-14 04:20:38,048 - alpacaeval_complete - INFO -    💾 Saved to: alpacaeval_research_results/model_outputs/ollama_quality_weighting_20250814_042038.json
+2025-08-14 04:20:38,048 - alpacaeval_complete - INFO - 
+📝 Generating with parallel_batching...
+2025-08-14 04:20:38,048 - moa_ttft - INFO - 🚀 Running Traditional MoA with parallel_batching
+2025-08-14 04:21:42,110 - moa_ttft - INFO - 🚀 Running Traditional MoA with parallel_batching
+2025-08-14 04:22:55,021 - moa_ttft - INFO - 🚀 Running Traditional MoA with parallel_batching
+2025-08-14 04:24:02,166 - moa_ttft - INFO - 🚀 Running Traditional MoA with parallel_batching
+2025-08-14 04:25:03,924 - moa_ttft - INFO - 🚀 Running Traditional MoA with parallel_batching
+2025-08-14 04:26:14,589 - moa_ttft - INFO - 🚀 Running Traditional MoA with parallel_batching
+2025-08-14 04:27:10,898 - moa_ttft - INFO - 🚀 Running Traditional MoA with parallel_batching
+2025-08-14 04:27:56,368 - moa_ttft - INFO - 🚀 Running Traditional MoA with parallel_batching
+2025-08-14 04:28:37,889 - moa_ttft - INFO - 🚀 Running Traditional MoA with parallel_batching
+2025-08-14 04:29:43,730 - moa_ttft - INFO - 🚀 Running Traditional MoA with parallel_batching
+2025-08-14 04:30:53,663 - alpacaeval_complete - INFO -    Progress: 10/20
+2025-08-14 04:30:53,663 - moa_ttft - INFO - 🚀 Running Traditional MoA with parallel_batching
+2025-08-14 04:31:52,235 - moa_ttft - INFO - 🚀 Running Traditional MoA with parallel_batching
+2025-08-14 04:32:49,542 - moa_ttft - INFO - 🚀 Running Traditional MoA with parallel_batching
+2025-08-14 04:33:54,211 - moa_ttft - INFO - 🚀 Running Traditional MoA with parallel_batching
+2025-08-14 04:35:02,035 - moa_ttft - INFO - 🚀 Running Traditional MoA with parallel_batching
+2025-08-14 04:35:56,513 - moa_ttft - INFO - 🚀 Running Traditional MoA with parallel_batching
+2025-08-14 04:37:02,875 - moa_ttft - INFO - 🚀 Running Traditional MoA with parallel_batching
+2025-08-14 04:38:10,538 - moa_ttft - INFO - 🚀 Running Traditional MoA with parallel_batching
+2025-08-14 04:39:22,345 - moa_ttft - INFO - 🚀 Running Traditional MoA with parallel_batching
+2025-08-14 04:40:07,936 - moa_ttft - INFO - 🚀 Running Traditional MoA with parallel_batching
+2025-08-14 04:41:20,731 - alpacaeval_complete - INFO -    Progress: 20/20
+2025-08-14 04:41:20,732 - alpacaeval_complete - INFO -    💾 Saved to: alpacaeval_research_results/model_outputs/ollama_parallel_batching_20250814_044120.json
+2025-08-14 04:41:20,732 - alpacaeval_complete - INFO - 
+✅ Generated outputs for 8 optimizations
+2025-08-14 04:41:20,732 - alpacaeval_complete - INFO - 
+============================================================
+2025-08-14 04:41:20,732 - alpacaeval_complete - INFO - ⚖️  EVALUATING WITH ALPACAEVAL METHODOLOGY
+2025-08-14 04:41:20,732 - alpacaeval_complete - INFO - ============================================================
+
+2025-08-14 04:41:20,732 - alpacaeval_complete - INFO - 
+📊 Evaluating: baseline
+2025-08-14 04:43:49,148 - alpacaeval_complete - INFO -    💾 Annotations saved to: alpacaeval_research_results/annotations/annotations_baseline_20250814_044349.json
+2025-08-14 04:43:49,148 - alpacaeval_complete - INFO -    Raw Win Rate: 55.0%
+2025-08-14 04:43:49,148 - alpacaeval_complete - INFO -    LC Win Rate: 57.7% [48.4, 72.7]
+2025-08-14 04:43:49,148 - alpacaeval_complete - INFO -    Avg Length: 478 tokens
+2025-08-14 04:43:49,148 - alpacaeval_complete - INFO -    Length Coef: 0.0053
+2025-08-14 04:43:49,148 - alpacaeval_complete - INFO - 
+📊 Evaluating: query_routing
+2025-08-14 04:46:30,273 - alpacaeval_complete - INFO -    💾 Annotations saved to: alpacaeval_research_results/annotations/annotations_query_routing_20250814_044630.json
+2025-08-14 04:46:30,273 - alpacaeval_complete - INFO -    Raw Win Rate: 40.0%
+2025-08-14 04:46:30,273 - alpacaeval_complete - INFO -    LC Win Rate: 48.2% [32.3, 59.4]
+2025-08-14 04:46:30,273 - alpacaeval_complete - INFO -    Avg Length: 465 tokens
+2025-08-14 04:46:30,273 - alpacaeval_complete - INFO -    Length Coef: -0.0011
+2025-08-14 04:46:30,273 - alpacaeval_complete - INFO - 
+📊 Evaluating: incremental_aggregation
+2025-08-14 04:48:51,744 - alpacaeval_complete - INFO -    💾 Annotations saved to: alpacaeval_research_results/annotations/annotations_incremental_aggregation_20250814_044851.json
+2025-08-14 04:48:51,744 - alpacaeval_complete - INFO -    Raw Win Rate: 50.0%
+2025-08-14 04:48:51,744 - alpacaeval_complete - INFO -    LC Win Rate: 49.9% [41.9, 65.0]
+2025-08-14 04:48:51,744 - alpacaeval_complete - INFO -    Avg Length: 477 tokens
+2025-08-14 04:48:51,744 - alpacaeval_complete - INFO -    Length Coef: -0.0001
+2025-08-14 04:48:51,744 - alpacaeval_complete - INFO - 
+📊 Evaluating: caching_second_run
+2025-08-14 04:51:17,861 - alpacaeval_complete - INFO -    💾 Annotations saved to: alpacaeval_research_results/annotations/annotations_caching_second_run_20250814_045117.json
+2025-08-14 04:51:17,861 - alpacaeval_complete - INFO -    Raw Win Rate: 45.0%
+2025-08-14 04:51:17,861 - alpacaeval_complete - INFO -    LC Win Rate: 58.2% [48.5, 73.0]
+2025-08-14 04:51:17,861 - alpacaeval_complete - INFO -    Avg Length: 481 tokens
+2025-08-14 04:51:17,861 - alpacaeval_complete - INFO -    Length Coef: 0.0078
+2025-08-14 04:51:17,861 - alpacaeval_complete - INFO - 
+📊 Evaluating: caching
+2025-08-14 04:53:44,360 - alpacaeval_complete - INFO -    💾 Annotations saved to: alpacaeval_research_results/annotations/annotations_caching_20250814_045344.json
+2025-08-14 04:53:44,360 - alpacaeval_complete - INFO -    Raw Win Rate: 55.0%
+2025-08-14 04:53:44,361 - alpacaeval_complete - INFO -    LC Win Rate: 71.3% [55.9, 83.2]
+2025-08-14 04:53:44,361 - alpacaeval_complete - INFO -    Avg Length: 484 tokens
+2025-08-14 04:53:44,361 - alpacaeval_complete - INFO -    Length Coef: 0.0218
+2025-08-14 04:53:44,361 - alpacaeval_complete - INFO - 
+📊 Evaluating: semantic_dedup
+2025-08-14 04:56:10,366 - alpacaeval_complete - INFO -    💾 Annotations saved to: alpacaeval_research_results/annotations/annotations_semantic_dedup_20250814_045610.json
+2025-08-14 04:56:10,366 - alpacaeval_complete - INFO -    Raw Win Rate: 40.0%
+2025-08-14 04:56:10,366 - alpacaeval_complete - INFO -    LC Win Rate: 60.8% [41.8, 75.1]
+2025-08-14 04:56:10,366 - alpacaeval_complete - INFO -    Avg Length: 481 tokens
+2025-08-14 04:56:10,366 - alpacaeval_complete - INFO -    Length Coef: 0.0127
+2025-08-14 04:56:10,366 - alpacaeval_complete - INFO - 
+📊 Evaluating: quality_weighting
+2025-08-14 04:58:30,178 - alpacaeval_complete - INFO -    💾 Annotations saved to: alpacaeval_research_results/annotations/annotations_quality_weighting_20250814_045830.json
+2025-08-14 04:58:30,178 - alpacaeval_complete - INFO -    Raw Win Rate: 55.0%
+2025-08-14 04:58:30,178 - alpacaeval_complete - INFO -    LC Win Rate: 59.9% [49.5, 81.9]
+2025-08-14 04:58:30,178 - alpacaeval_complete - INFO -    Avg Length: 474 tokens
+2025-08-14 04:58:30,178 - alpacaeval_complete - INFO -    Length Coef: 0.0059
+2025-08-14 04:58:30,178 - alpacaeval_complete - INFO - 
+📊 Evaluating: parallel_batching
+2025-08-14 05:00:48,427 - alpacaeval_complete - INFO -    💾 Annotations saved to: alpacaeval_research_results/annotations/annotations_parallel_batching_20250814_050048.json
+2025-08-14 05:00:48,427 - alpacaeval_complete - INFO -    Raw Win Rate: 40.0%
+2025-08-14 05:00:48,428 - alpacaeval_complete - INFO -    LC Win Rate: 52.0% [43.5, 68.6]
+2025-08-14 05:00:48,428 - alpacaeval_complete - INFO -    Avg Length: 476 tokens
+2025-08-14 05:00:48,428 - alpacaeval_complete - INFO -    Length Coef: 0.0015
+2025-08-14 05:00:48,428 - alpacaeval_complete - INFO - 
+📄 Report saved to: alpacaeval_research_results/reports/alpacaeval_report_20250814_050048.md
+2025-08-14 05:00:48,563 - alpacaeval_complete - INFO - 📊 Metrics CSV saved to: alpacaeval_research_results/reports/metrics_20250814_050048.csv
+
+============================================================
+✅ EVALUATION COMPLETE
+============================================================
+📁 Results: alpacaeval_research_results
+
+📊 LC Win Rates (Research-Grade):
+  caching                     71.3% [55.9, 83.2]
+  semantic_dedup              60.8% [41.8, 75.1]
+  quality_weighting           59.9% [49.5, 81.9]
+  caching_second_run          58.2% [48.5, 73.0]
+  baseline                    57.7% [48.4, 72.7]
+  parallel_batching           52.0% [43.5, 68.6]
+  incremental_aggregation     49.9% [41.9, 65.0]
+  query_routing               48.2% [32.3, 59.4]
+
+💡 These LC win rates:
+   • Control for length bias via logistic regression
+   • Include bootstrapped 95% confidence intervals
+   • Are directly comparable to published research
+   • Correlate 0.98 with ChatBot Arena
